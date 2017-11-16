@@ -15,6 +15,7 @@
             <h2>search:
                 <input ng-model="query.first">
                    <button ng-click="order()">sort by name:</button>
+                   </h2>
             <div class="row">
                 <div ng-repeat="actor in actors | filter:query | orderBy:orderProp" class="column col-xs-12 col-sm-10 col-md-5 col-lg-4">
                     <a href={{actor.link}} target="_blank">
