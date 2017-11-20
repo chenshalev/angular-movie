@@ -11,7 +11,7 @@ app.controller("movieCtrl", function ($scope, $http) {
         }
     
         $http.get("movie.json").then(function mySuccess(response) {
-            $scope.movie=response.data;
+            $scope.movies=response.data;
         }, function myError(response) {
             alert("error" + JSON.stringify(response.status));
           })
