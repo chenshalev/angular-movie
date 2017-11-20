@@ -1,37 +1,37 @@
 [{
-    first:"Nikol", 
-    last:"kidman",
-    img:"https://images-na.ssl-images-amazon.com/images/M/MV5BMTk1MjM5NDg4MF5BMl5BanBnXkFtZTcwNDg1OTQ4Nw@@._V1_UY317_CR10,0,214,317_AL_.jpg",
-    link:"http://www.imdb.com/name/nm0000173/"
+    "first":"Nikol", 
+    "last":"kidman",
+    "img":"https://images-na.ssl-images-amazon.com/images/M/MV5BMTk1MjM5NDg4MF5BMl5BanBnXkFtZTcwNDg1OTQ4Nw@@._V1_UY317_CR10,0,214,317_AL_.jpg",
+    "link":"http://www.imdb.com/name/nm0000173/"
 },
 {
-    first:"Julia", 
-    last:"Roberts",
-    img:"https://images-na.ssl-images-amazon.com/images/M/MV5BMTQzNjU3MDczN15BMl5BanBnXkFtZTYwNzY2Njc4._V1_UX214_CR0,0,214,317_AL_.jpg",
-    link:"http://www.imdb.com/name/nm0000210/"
+    "first":"Julia", 
+    "last":"Roberts",
+    "img":"https://images-na.ssl-images-amazon.com/images/M/MV5BMTQzNjU3MDczN15BMl5BanBnXkFtZTYwNzY2Njc4._V1_UX214_CR0,0,214,317_AL_.jpg",
+    "link":"http://www.imdb.com/name/nm0000210/"
 },
 {
-    first:"Meg", 
-    last:"Ryan",
-    img:"https://images-na.ssl-images-amazon.com/images/M/MV5BMTgzOTI0NzI3OV5BMl5BanBnXkFtZTgwODIyMzUzMDI@._V1_UY317_CR1,0,214,317_AL_.jpg",
-    link:"http://www.imdb.com/name/nm0000212/?ref_=tt_cl_t1"
+    "first":"Meg", 
+    "last":"Ryan",
+    "img":"https://images-na.ssl-images-amazon.com/images/M/MV5BMTgzOTI0NzI3OV5BMl5BanBnXkFtZTgwODIyMzUzMDI@._V1_UY317_CR1,0,214,317_AL_.jpg",
+    "link":"http://www.imdb.com/name/nm0000212/?ref_=tt_cl_t1"
 },
 {
-    first:"Jennifer", 
-    last:"Aniston",
-    img:"https://images-na.ssl-images-amazon.com/images/M/MV5BNjk1MjIxNjUxNF5BMl5BanBnXkFtZTcwODk2NzM4Mg@@._V1_UY317_CR3,0,214,317_AL_.jpg",
-    link:"http://www.imdb.com/name/nm0000098/"
+    "first":"Jennifer", 
+    "last":"Aniston",
+    "img":"https://images-na.ssl-images-amazon.com/images/M/MV5BNjk1MjIxNjUxNF5BMl5BanBnXkFtZTcwODk2NzM4Mg@@._V1_UY317_CR3,0,214,317_AL_.jpg",
+    "link":"http://www.imdb.com/name/nm0000098/"
 },
 {
-    first:"Jennifer", 
-    last:"Lopez",
-    img:"https://images-na.ssl-images-amazon.com/images/M/MV5BMTY0OTY3ODA3OV5BMl5BanBnXkFtZTcwMzMyMzQ1NQ@@._V1_UY317_CR32,0,214,317_AL_.jpg",
-    link:"http://www.imdb.com/name/nm0000182/"
+    "first":"Jennifer", 
+    "last":"Lopez",
+    "img":"https://images-na.ssl-images-amazon.com/images/M/MV5BMTY0OTY3ODA3OV5BMl5BanBnXkFtZTcwMzMyMzQ1NQ@@._V1_UY317_CR32,0,214,317_AL_.jpg",
+    "link":"http://www.imdb.com/name/nm0000182/"
 },
 {
-    first:"Jennifer", 
-    last:"Garner",
-    img:"https://images-na.ssl-images-amazon.com/images/M/MV5BNTA4MDgzMTc1Nl5BMl5BanBnXkFtZTcwNjQyMjIwNQ@@._V1_UY317_CR14,0,214,317_AL_.jpg",
-    link:"http://www.imdb.com/name/nm0004950/"
+    "first":"Jennifer", 
+    "last":"Garner",
+    "img":"https://images-na.ssl-images-amazon.com/images/M/MV5BNTA4MDgzMTc1Nl5BMl5BanBnXkFtZTcwNjQyMjIwNQ@@._V1_UY317_CR14,0,214,317_AL_.jpg",
+    "link":"http://www.imdb.com/name/nm0004950/"
 }
 ]

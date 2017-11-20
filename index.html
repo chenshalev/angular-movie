@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="style.css">
     <script src="app.js"></script>
     <script src="actorCtrl.js"></script>
+    <script src="movieCtrl.js"></script>
+    <script src="movieDirective.js"></script>
 </head>
 
 <body>
@@ -14,19 +16,22 @@
             <h1 class="text-center">Gallery of actors</h1>
             <h2>search:
                 <input ng-model="query.first">
-                   <button ng-click="order()">sort by name:</button>
-                   </h2>
+                <button ng-click="order()">sort by name:</button>
+            </h2>
             <div class="row">
                 <div ng-repeat="actor in actors | filter:query | orderBy:orderProp" class="column col-xs-12 col-sm-10 col-md-5 col-lg-4">
                     <a href={{actor.link}} target="_blank">
-                        <img class="img-responsive" src={{actor.img}} alt="" /> 
-                       <h3 class="text-center"> {{actor.first+' '+actor.last}}</h3>
+                        <img class="img-responsive" src={{actor.img}} alt="" />
+                        <h3 class="text-center"> {{actor.first+' '+actor.last}}</h3>
                     </a>
                 </div>
             </div>
         </div>
     </div>
-
+    <div ng-controller="movieCtrl">
+        <h1>10 most famouse movies</h1>
+        <my-movie ng-repeat="movie in movies"></my-movie>
+    </div>
 </body>
 
 </html>
