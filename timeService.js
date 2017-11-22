@@ -16,12 +16,4 @@ app.factory("convert", function () {
       hours: MInToHours
     }
 });
-     function convertDistance(distance, inUnit, outUnit) {
-        return Math.round(distance * kmRates[outUnit] / kmRates[inUnit]);
-      }
-    
-      return {
-        /*km2Mile: convertKMToMile*/
-        hours: convertDistance
-      }
-    });
+ 
