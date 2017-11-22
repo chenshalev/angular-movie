@@ -1,15 +1,7 @@
 
-app.controller("actorCtrl", function ($scope, $http) {
+app.controller("actorCtrl", function ($scope, $http,Actor) {
 
-    // Car Constructor
-    function Actor(first, last, img, link) {
-        this.first = first;
-        this.last = last;
-        this.img = img;
-        this.link = link;
-    }
-
-    $http.get("actors.json").then(function mySuccess(response) {
+     $http.get("actors.json").then(function mySuccess(response) {
         $scope.actors=response.data;
     }, function myError(response) {
         alert("error" + JSON.stringify(response.status));
